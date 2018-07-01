@@ -1,0 +1,11 @@
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\CustomMultipartFormDataStreamProvider.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\CustomMultipartFormDataStreamProvider.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\Newtonsoft.Json.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\System.Net.Http.Formatting.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\Newtonsoft.Json.xml
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\System.Net.Http.Formatting.xml
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\CustomMultipartFormDataStreamProvider.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\CustomMultipartFormDataStreamProvider.pdb
