@@ -97,3 +97,7 @@ D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\obj\Debug\FileImport.cspro
 D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\obj\Debug\FileImport.csproj.CopyComplete
 D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\obj\Debug\CSVImport.dll
 D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\obj\Debug\CSVImport.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\bin\Data.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\bin\Data.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\bin\Repository.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CSVImport\bin\Repository.pdb

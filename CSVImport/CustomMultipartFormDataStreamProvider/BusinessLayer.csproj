@@ -47,11 +47,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomMultipartFormDataStreamProvider.cs" />
+    <Compile Include="CompanyDataService\CompanyDataService.cs" />
+    <Compile Include="CompanyDataService\ICompanyDataService.cs" />
+    <Compile Include="FileColumnsFormatter\FileColumnsFormatter.cs" />
+    <Compile Include="FileColumnsFormatter\IFileColumnsFormatter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StreamDataExtractor\IStreamDataExtractor.cs" />
+    <Compile Include="StreamDataExtractor\StreamDataExtractor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{3993A8A7-6337-4936-B667-2CD972C9AC65}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{184BC919-852D-412A-9C10-C15D37F10635}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

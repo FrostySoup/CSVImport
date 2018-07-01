@@ -1,0 +1,9 @@
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\Repository.dll
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\Repository.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\Data.dll
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\Data.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.csproj.CopyComplete
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.dll
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.pdb

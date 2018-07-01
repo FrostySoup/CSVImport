@@ -9,3 +9,7 @@ D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvide
 D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\BusinessLayer.csproj.CopyComplete
 D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\CustomMultipartFormDataStreamProvider.dll
 D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\obj\Debug\CustomMultipartFormDataStreamProvider.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\Data.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\Data.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\Repository.dll
+D:\Assigment\Repository\CSVImport\CSVImport\CustomMultipartFormDataStreamProvider\bin\Debug\Repository.pdb

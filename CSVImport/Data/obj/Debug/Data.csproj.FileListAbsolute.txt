@@ -1,0 +1,6 @@
+D:\Assigment\Repository\CSVImport\CSVImport\Data\bin\Debug\Data.dll
+D:\Assigment\Repository\CSVImport\CSVImport\Data\bin\Debug\Data.pdb
+D:\Assigment\Repository\CSVImport\CSVImport\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Assigment\Repository\CSVImport\CSVImport\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\Assigment\Repository\CSVImport\CSVImport\Data\obj\Debug\Data.dll
+D:\Assigment\Repository\CSVImport\CSVImport\Data\obj\Debug\Data.pdb
