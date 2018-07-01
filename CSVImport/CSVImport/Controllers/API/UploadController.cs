@@ -17,9 +17,9 @@ namespace CSVImport.Controllers.API
     {
         private readonly ICompanyDataService _companyDataService;
 
-        public UploadController()
+        public UploadController(ICompanyDataService companyDataService)
         {
-            _companyDataService = new CompanyDataService(null);
+            _companyDataService = companyDataService;
         }
 
         [Route("fileupload")]

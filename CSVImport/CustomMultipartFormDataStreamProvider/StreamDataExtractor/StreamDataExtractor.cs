@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CustomMultipartFormDataStreamProvider.FileColumnsFormatter;
 using Data;
+using Data.Model;
 using Repository.CompanyRepository;
 
 namespace CustomMultipartFormDataStreamProvider.StreamDataExtractor
@@ -15,10 +16,10 @@ namespace CustomMultipartFormDataStreamProvider.StreamDataExtractor
         private readonly IFileColumnsFormatter _fileColumnsFormatter;
         private readonly ICompanyRepository _companyRepository;
 
-        public StreamDataExtractor()
+        public StreamDataExtractor(IFileColumnsFormatter fileColumnsFormatter, ICompanyRepository companyRepository)
         {
-            _fileColumnsFormatter = new FileColumnsFormatter.FileColumnsFormatter();
-            _companyRepository = new CompanyRepository();
+            _fileColumnsFormatter = fileColumnsFormatter;
+            _companyRepository = companyRepository;
         }
 
         public List<Company> ExtractDataFromStream(Stream stream)

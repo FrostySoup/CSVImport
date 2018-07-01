@@ -14,7 +14,7 @@ namespace CustomMultipartFormDataStreamProvider.CompanyDataService
 
         public CompanyDataService(IStreamDataExtractor streamDataExtractor)
         {
-            _streamDataExtractor = new StreamDataExtractor.StreamDataExtractor();
+            _streamDataExtractor = streamDataExtractor;
         }
 
         public bool SaveCompanyData(Stream stream)
