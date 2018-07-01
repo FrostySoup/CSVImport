@@ -12,3 +12,5 @@ D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\EntityFramework
 D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\EntityFramework.SqlServer.dll
 D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\EntityFramework.xml
 D:\Assigment\Repository\CSVImport\CSVImport\Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.Migrations.InitialCreate.resources
+D:\Assigment\Repository\CSVImport\CSVImport\Repository\obj\Debug\Repository.csproj.GenerateResource.cache
