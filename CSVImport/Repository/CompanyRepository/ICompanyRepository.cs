@@ -1,16 +1,13 @@
-﻿using Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Data.Model;
+using Data.ViewModel;
 
 namespace Repository.CompanyRepository
 {
     public interface ICompanyRepository
     {
-        Company AddCompany(Company company);
-        List<Company> GetAllCompanies();
+        Task<Company> AddCompany(Company company);
+        Task<List<CompanyViewModel>> GetAllCompanies();
     }
 }

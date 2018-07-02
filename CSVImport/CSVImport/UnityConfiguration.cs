@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using CustomMultipartFormDataStreamProvider.CompanyDataService;
+﻿using CustomMultipartFormDataStreamProvider.CompanyDataService;
 using CustomMultipartFormDataStreamProvider.FileColumnsFormatter;
 using CustomMultipartFormDataStreamProvider.StreamDataExtractor;
 using Repository.CompanyRepository;

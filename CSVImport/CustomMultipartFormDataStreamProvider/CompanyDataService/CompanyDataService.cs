@@ -1,27 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using CustomMultipartFormDataStreamProvider.StreamDataExtractor;
+using Data.Model;
+using Data.ViewModel;
+using Repository.CompanyRepository;
 
 namespace CustomMultipartFormDataStreamProvider.CompanyDataService
 {
     public class CompanyDataService: ICompanyDataService
     {
         private readonly IStreamDataExtractor _streamDataExtractor;
+        private readonly ICompanyRepository _companyRepository;
 
-        public CompanyDataService(IStreamDataExtractor streamDataExtractor)
+        public CompanyDataService(IStreamDataExtractor streamDataExtractor, ICompanyRepository companyRepository)
         {
             _streamDataExtractor = streamDataExtractor;
+            _companyRepository = companyRepository;
         }
 
-        public bool SaveCompanyData(Stream stream)
+        public async Task<List<CompanyViewModel>> GetAllCompanies()
         {
-            var test = _streamDataExtractor.ExtractDataFromStream(stream);
+            return await _companyRepository.GetAllCompanies();
+        }
 
-            return true;
+        public async Task<bool> SaveCompanyData(Stream stream)
+        {
+            return await _streamDataExtractor.ExtractDataFromStream(stream);
         }
     }
 }

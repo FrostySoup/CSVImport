@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using CustomMultipartFormDataStreamProvider.FileColumnsFormatter;
-using Data;
-using Data.Model;
 using Repository.CompanyRepository;
 
 namespace CustomMultipartFormDataStreamProvider.StreamDataExtractor
@@ -22,7 +17,7 @@ namespace CustomMultipartFormDataStreamProvider.StreamDataExtractor
             _companyRepository = companyRepository;
         }
 
-        public List<Company> ExtractDataFromStream(Stream stream)
+        public async Task<bool> ExtractDataFromStream(Stream stream)
         {
             var columnsList = new List<int>();
             Dictionary<string, int> headers = null;
@@ -40,12 +35,12 @@ namespace CustomMultipartFormDataStreamProvider.StreamDataExtractor
 
                         var company = _fileColumnsFormatter.FormCompany(values, columnsList);
 
-                        _companyRepository.AddCompany(company);
+                        await _companyRepository.AddCompany(company);
                     }
                 }
             }
 
-            return _companyRepository.GetAllCompanies();
+            return true;
         }
     }
 }

@@ -1,35 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Data;
 using Data.Model;
+using Data.ViewModel;
 
 namespace Repository.CompanyRepository
 {
     public class CompanyRepository : ICompanyRepository
     {
-        private static List<Company> companies = new List<Company>();
-        public Company AddCompany(Company company)
+        public async Task<Company> AddCompany(Company company)
         {
-            companies.Add(company);
-
             using (var db = new ImportContext())
             {
                 db.Companies.Add(company);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
 
             return company;
         }
 
-        public List<Company> GetAllCompanies()
+        public async Task<List<CompanyViewModel>> GetAllCompanies()
         {
             using (var db = new ImportContext())
             {
-                return db.Companies.Where(x => x != null).ToList();
+                return await db.Companies
+                    .Select(c => new CompanyViewModel
+                    {
+                        ExternalId = c.ExternalId,
+                        Fax = c.Fax,
+                        Phone = c.Phone,
+                        CompanyType = c.CompanyType,
+                        IsWarehouse = c.IsWarehouse,
+                        IsForwarder = c.IsForwarder,
+                        TradingName = c.TradingName
+                    })
+                    .ToListAsync();
             }
         }
     }
